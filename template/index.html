@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Hello React</title>
+    </head>
+    <body>
+        <div id="app1">
+        </div>
+        <div id="app2">
+        </div>
+        
+    <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+    <script>
+        ReactDOM.render(
+            React.DOM.h1(null, "Hello world!"),
+            document.getElementById("app1")
+        );
+        ReactDOM.render(
+            React.DOM.h2(null, "my h2"),
+            document.getElementById("app2")
+        );
+
+    </script>
+    </body>
+</html>
